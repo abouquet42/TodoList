@@ -40,6 +40,7 @@ class App extends Component {
                 type="text"
                 ref="textInput"
                 placeholder="Type to add new tasks"
+                maxLength="150"
               />
             </form> : ''
           }

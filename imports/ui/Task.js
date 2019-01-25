@@ -46,7 +46,7 @@ export default class Task extends Component {
                 onClick={this.toggleChecked.bind(this)}
                 className="checkbox"
               />
-              <span className="text">{this.props.task.text}</span>
+              <span className="text" style={{width: '490px'}}>{this.props.task.text}</span>
             </div>
           </li>
         ) : ''}
